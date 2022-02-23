@@ -9,7 +9,9 @@ class App extends Component {
   constructor() {
     super();
     this.notas = [];
-    this.state = { notas: [] };
+    this.state = { 
+      notas: [],
+      categorias: [], };
   }
 
   deletarNota(index) {
